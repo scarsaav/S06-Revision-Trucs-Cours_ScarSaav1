@@ -9,7 +9,7 @@ public class CreationMonnaiesOr : MonoBehaviour
 
     void Start()
     {
-        Quaternion _rotation = Quaternion.Euler(0f, 90f, 0f);
-        Instantiate(_prefabOriginal, _positionCreation, _rotation);
+        Quaternion _rotation = Quaternion.Euler(0f, 90f, 0f); //representation de rotation en 3D
+        Instantiate(_prefabOriginal, _positionCreation, _rotation); //commande qui va creer le clone (variable qui permet de cloner un gameobject
     }
 }
